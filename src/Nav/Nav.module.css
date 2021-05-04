@@ -1,0 +1,16 @@
+.nav {
+    border: 1px solid #fafafa;
+    justify-content: center;
+    width: 400px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav ul li {
+    list-style: none;
+    color: white;
+}
