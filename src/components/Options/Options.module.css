@@ -1,0 +1,23 @@
+.optionsBlock {
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.optionsContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #fafafa;
+}
+.optionsContainer h2 {
+    color: #e8e8e8;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+@media screen and (max-width: 420px) {
+    .optionsContainer h2 {
+        font-size: 20px;
+    }
+}

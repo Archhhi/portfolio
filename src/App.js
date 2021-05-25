@@ -1,7 +1,11 @@
 import './App.css';
-import Header from "./Header/Header";
-import MainBlock from "./MainBlock/MainBlock";
-import Skills from "./Skills/Skills";
+import Header from "./components/Header/Header";
+import MainBlock from "./components/MainBlock/MainBlock";
+import Skills from "./components/Skills/Skills";
+import Works from "./components/Works/Works";
+import Options from "./components/Options/Options";
+import Contacts from "./components/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -9,6 +13,10 @@ function App() {
         <Header/>
         <MainBlock/>
         <Skills/>
+        <Works/>
+        <Options/>
+        <Contacts/>
+        <Footer/>
       </div>
   );
 }

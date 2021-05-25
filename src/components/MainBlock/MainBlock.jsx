@@ -1,10 +1,10 @@
 import s from './MainBlock.module.css';
-import sContainer from '../common/styles/Container.module.css';
+import sContainer from '../../common/styles/Container.module.css';
 
 function MainBlock() {
   return (
       <div className={s.mainBlock}>
-        <div className={sContainer.container}>
+        <div className={`${sContainer.container} ${s.mainContainer}`}>
           <div className={s.greetingText}>
             <span>Hi There!</span>
             <h1>I am Arthur Shogenov</h1>

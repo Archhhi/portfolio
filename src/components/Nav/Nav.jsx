@@ -1,4 +1,4 @@
-import s from "../Nav/Nav.module.css";
+import s from "./Nav.module.css";
 
 function Nav() {
   return (

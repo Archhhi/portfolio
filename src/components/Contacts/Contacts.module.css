@@ -1,0 +1,54 @@
+.contactsBlock {
+    display: flex;
+    min-height: 40vh;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.contactsContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #fafafa;
+}
+.contactsContainer h2 {
+    color: #e8e8e8;
+    font-family: sans-serif;
+    margin: 0;
+}
+.contactsContainer form {
+    display: flex;
+    width: 400px;
+    background-color: #e8e8e8;
+}
+.contactsContainer button {
+    font-family: sans-serif;
+}
+
+.inputBlock {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.inputBlock input {
+    height: 30px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+}
+.inputBlock textarea {
+    height: 100px;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+@media screen and (max-width: 600px) {
+    .contactsContainer {
+        min-height: 50vh;
+        justify-content: space-evenly;
+    }
+    .contactsContainer form {
+        width: 80%;
+    }
+}

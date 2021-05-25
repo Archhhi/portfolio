@@ -1,0 +1,35 @@
+.footerBlock {
+    display: flex;
+    min-height: 25vh;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #fafafa;
+}
+.footerContainer h2 {
+    color: #e8e8e8;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.items {
+    display: flex;
+    border: 1px solid #fafafa;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: #e8e8e8;
+}
+
+@media screen and (max-width: 800px) {
+    .items {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}

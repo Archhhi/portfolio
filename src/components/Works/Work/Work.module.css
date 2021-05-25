@@ -1,0 +1,44 @@
+.workBlock {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    background-color: #f6f6f6;
+}
+
+.workImage {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #e8e8e8;
+    align-items: center;
+    justify-content: center;
+}
+.workImage a {
+    width: 80px;
+    font-size: 18px;
+    background-color: #fafafa;
+    text-align: center;
+    text-decoration: none;
+}
+
+.description h4 {
+    margin: 0 0 5px 0;
+}
+.description p {
+    margin: 0;
+}
+.description {
+    display: flex;
+    width: 100%;
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 520px) {
+    .workBlock {
+        width: 80%;
+    }
+}

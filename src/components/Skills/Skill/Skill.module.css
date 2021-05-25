@@ -14,4 +14,11 @@
 
 .description {
     text-align: center;
+    padding: 3px;
+}
+
+@media screen and (max-width: 520px) {
+    .skill {
+        width: 80%;
+    }
 }
