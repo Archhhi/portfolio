@@ -1,8 +1,9 @@
-.workBlock {
+.projectBlock {
     display: flex;
     width: 350px;
     flex-direction: column;
     background-color: #f6f6f6;
+    margin: 40px 0;
 }
 
 .workImage {
@@ -38,7 +39,7 @@
 }
 
 @media screen and (max-width: 520px) {
-    .workBlock {
+    .projectBlock {
         width: 80%;
     }
 }

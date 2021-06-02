@@ -1,9 +1,9 @@
 import React from 'react'
-import s from './Work.module.css'
+import s from './Project.module.css'
 
-function Work(props) {
+function Project(props) {
   return (
-      <div className={s.workBlock}>
+      <div className={s.projectBlock}>
         <div className={s.workImage}>
           <a href={''}>See</a>
         </div>
@@ -15,4 +15,4 @@ function Work(props) {
   )
 }
 
-export default Work
+export default Project

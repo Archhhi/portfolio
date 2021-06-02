@@ -1,6 +1,5 @@
 .contactsBlock {
     display: flex;
-    min-height: 40vh;
     justify-content: center;
     background-color: #000000;
 }
@@ -8,7 +7,7 @@
 .contactsContainer {
     flex-direction: column;
     justify-content: space-evenly;
-    border: 1px solid #fafafa;
+    padding: 40px 0;
 }
 .contactsContainer h2 {
     color: #e8e8e8;
@@ -18,10 +17,12 @@
 .contactsContainer form {
     display: flex;
     width: 400px;
+    margin-top: 40px;
     background-color: #e8e8e8;
 }
 .contactsContainer button {
     font-family: sans-serif;
+    margin-top: 40px;
 }
 
 .inputBlock {

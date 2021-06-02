@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './Footer.module.css'
 import sContainer from '../../common/styles/Container.module.css'
-import Item from "./Item/Item";
+import Item from "./Item/Item"
 
 function Footer() {
   return (
