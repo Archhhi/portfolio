@@ -11,7 +11,8 @@
 }
 
 .greetingText {
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
     margin-left: 6%;
     color: #fafafa;
     padding: 10px;
@@ -44,9 +45,6 @@
         flex-direction: column;
         justify-content: space-evenly!important;
     }
-}
-
-@media screen and (max-width: 1120px) {
     .greetingText {
         margin: 0;
     }
@@ -55,6 +53,7 @@
         margin: 0;
     }
 }
+
 @media screen and (max-width: 520px) {
     .greetingText {
         width: 80%;

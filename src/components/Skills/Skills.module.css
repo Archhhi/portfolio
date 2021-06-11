@@ -21,11 +21,3 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
-@media screen and (max-width: 1020px) {
-    .skills {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-}
