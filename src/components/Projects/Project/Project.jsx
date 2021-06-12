@@ -1,11 +1,11 @@
 import React from 'react'
-import s from './Project.module.css'
+import s from './Project.module.scss'
 
 function Project({nameProject, style, description}) {
   return (
       <div className={s.projectBlock}>
         <div className={s.projectImage} style={style}>
-          <a href={''}>Watch</a>
+          <a href={''} className={s.viewBtn}>Watch</a>
         </div>
         <div className={s.description}>
           <h3 className={s.descriptionTitle}>{nameProject}</h3>
