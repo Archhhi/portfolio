@@ -5,6 +5,7 @@ import Project from './Project/Project'
 import Title from '../../common/components/Title'
 import social_image from './../../assets/image/social-media.png'
 import todo_image from './../../assets/image/GettyImages.jpg'
+import dg_image from './../../assets/image/dg.jpg'
 
 function Projects() {
 
@@ -15,6 +16,11 @@ function Projects() {
   }
   const todoList = {
     backgroundImage: `url(${todo_image})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+  }
+  const counter = {
+    backgroundImage: `url(${dg_image})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   }
@@ -32,7 +38,8 @@ function Projects() {
                      style={todoList}
                      description={'Lorem Ipsum, Lorem Ipsum, Lorem Ipsum, Lorem Ipsum,'}
             />
-            <Project nameProject={'TodoList'}
+            <Project nameProject={'Counter'}
+                     style={counter}
                      description={'It’s not wrong to say that perfection in web design is something that doesn\'t really exist. But that doesn\'t mean'}
             />
           </div>

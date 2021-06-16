@@ -1,0 +1,32 @@
+@import '../../../common/styles/sass/variables';
+@import '../../../common/styles/sass/mixins';
+
+.skill {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    background-clip: border-box;
+  }
+
+  .title {
+    font-size: 24px;
+    font-family: $textFontFamily;
+    color: $primaryColor;
+  }
+
+  .description {
+    text-align: center;
+    padding: 3px;
+    @include text($textFontFamily, 17px, $textColor)
+  }
+
+  @media screen and (max-width: 520px) {
+    width: 80%;
+  }
+}
