@@ -1,0 +1,30 @@
+@import '../../common/styles/sass/variables';
+
+.footerBlock {
+  display: flex;
+  justify-content: center;
+  background-color: $bgColor;
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 0;
+  }
+
+  .items {
+    display: flex;
+    width: 30%;
+    margin-top: 40px;
+    justify-content: space-between;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  }
+
+  .copyright {
+    margin-top: 40px;
+    color: $textColor;
+  }
+}

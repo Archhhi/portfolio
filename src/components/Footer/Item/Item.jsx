@@ -1,9 +1,9 @@
 import React from 'react'
-import s from './Item.module.css'
+import s from './Item.module.scss'
 
-function Item() {
+function Item({style, link}) {
   return (
-      <div className={s.itemBlock}></div>
+      <a href={link} target={'_blank'} className={s.itemBlock} style={style}/>
   )
 }
 

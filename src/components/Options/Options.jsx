@@ -1,13 +1,14 @@
 import React from 'react'
-import s from './Options.module.css'
-import sContainer from '../../common/styles/Container.module.css'
+import s from './Options.module.scss'
+import sContainer from '../../common/styles/Container.module.scss'
+import Title from "../../common/components/Title";
 
 function Options() {
   return (
       <div className={s.optionsBlock}>
         <div className={`${sContainer.container} ${s.optionsContainer}`}>
-          <h2>Considering remote work</h2>
-          <button>Hire me</button>
+          <Title title={'Considering remote work'} />
+            <a href={'#contacts'} className={s.viewBtn}>Hire me</a>
         </div>
       </div>
   )

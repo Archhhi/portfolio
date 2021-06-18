@@ -1,5 +1,5 @@
 import s from './Skills.module.scss';
-import sContainer from '../../common/styles/Container.module.css';
+import sContainer from '../../common/styles/Container.module.scss';
 import Skill from "./Skill/Skill";
 import Title from "../../common/components/Title";
 import javaScript_icon from "../../assets/image/javascript-icon.png";
